@@ -268,6 +268,10 @@ ul li {
     display: none;
 }
 
+.panels-image-container {
+    display: block;
+}
+
 @media only screen and (min-width: 992px) {
     .mobile-constraint {
         max-width: none;
@@ -364,6 +368,23 @@ ul li {
 
     .desktop-only {
         display: block;
+    }
+    .margin-left {
+        margin-left: 600px;
+    }
+
+    .panels-image-container {
+        display: flex;
+    }
+
+    .panels {
+        display: flex;
+        width: 70%;
+        flex-wrap: wrap;  
+    }
+    .panel {
+        width: 50%;
+        box-sizing: border-box;
     }
 }
     
