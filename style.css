@@ -124,7 +124,6 @@ ul li {
     font-style: normal;
 }
 
-
 .purple {
     background: #4B5092;
     color: white;
@@ -138,7 +137,6 @@ ul li {
 
 .content-area {
     padding: 50px 20px;
-    
 }
 
 #title {
@@ -172,9 +170,13 @@ ul li {
     margin-top: 40px;
 }
 
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
 .blue {
     background-color: #F2F8FF;
-    width: 100%;
+    width: 92%;
     margin: 0;
 }
 
@@ -190,9 +192,6 @@ ul li {
     text-align: left;
 }
 
-.margin-bottom {
-    margin-bottom: 100px;
-}
 
 .gradient-background {
     background: linear-gradient(100deg, #BAD4FF 0%, #6487BF 100%);
@@ -262,12 +261,18 @@ ul li {
 }
 
 .left-area {
-    text-align:center;
+    text-align: center;
+}
+
+.desktop-only {
+    display: none;
 }
 
 @media only screen and (min-width: 992px) {
     .mobile-constraint {
         max-width: none;
+        padding: 0;
+        margin: 0;
     }
     #title {
         display: flex;
@@ -286,6 +291,7 @@ ul li {
     
     .flex-modify {
         display: flex;
+        align-items: center;
     }
 
     .reverse-flex {
@@ -293,22 +299,72 @@ ul li {
     }
     
     .img {
-        max-width: 500px;
-        max-height: 500px;
+        max-width: 600px;
+        max-height: 600px;
     }
-    
     .left-area {
         text-align: left;
         padding-left: 9%
     }
 
-    .blue {
-        background-color: #F2F8FF;
-        width: 40%;
-        margin-left: 20%;
-        max-width: 500px;
+    .margin-adjust {
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
+    .blue {
+        border-radius: 50px;
+        background: #F2F8FF;
+        width: 600px;
+        margin-top: 50px;
+        min-width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+
+    #second-workout {
+        width: 100%;
+        min-width: 500px;
+        height: 500px;
+    }
+
+    #third-image {
+        margin-bottom: 0;
+        padding-bottom: 0; 
+        width: 550px;
+    }
+
+    .content-section {
+        padding: auto;
+        margin: auto;
+    }
+
+    .desktop-adjust {
+        width: 200px;
+        min-width: 200px;
+        margin-left: 10%;
+    }
+
+    .extra-padding {
+        margin-left: 100px;
+    }
+
+    .desktop-center {
+        text-align: center;
+    }
+
+    .text-area {
+        width: 500px;
+        margin-right: 15%;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block;
+    }
 }
     
 
