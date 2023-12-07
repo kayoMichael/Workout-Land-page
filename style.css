@@ -9,12 +9,7 @@
     font-family: Hellix;
     background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
   }
-  
-  .constrain {
-    max-width: 425px;
-    margin: auto;
-  }
-  
+
   h1, h2, h3, h6 {
     font-weight: 500;
     color: #111235;
@@ -77,6 +72,12 @@
   input::placeholder {
      color: #111235;
   }
+
+  .constrain {
+    max-width: 425px;
+    margin: auto;
+  }
+  
   
   .header-bold {
     font-weight: 700;
